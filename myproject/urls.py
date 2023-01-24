@@ -48,7 +48,7 @@ User_router.register(
 
 # Register URLs
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    # path("admin/", admin.site.urls),
     # API
     path("api/", include(User_router.urls)),
 ]
